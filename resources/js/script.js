@@ -110,9 +110,19 @@ $(document).ready(function () {
 
 
     /* Maps */
-    new GMaps({
+    var map = new GMaps({
         div: '.map',
-        lat: -12.043333,
-        lng: -77.028333
-      }); 
+        lat: -15.8033248,
+        lng: -48.070,
+        zoom: 20
+    });
+
+    map.addMarker({
+        lat: -15.8033248,
+        lng: -48.0707785,
+        title: 'Dom Bosco',
+        infoWindow: {
+            content: '<p>Dom Bosco Atacado</p>'
+        }
+    });
 });
