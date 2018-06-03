@@ -113,8 +113,8 @@ $(document).ready(function () {
     var map = new GMaps({
         div: '.map',
         lat: -15.8033248,
-        lng: -48.070,
-        zoom: 20
+        lng: -48.009,
+        zoom: 12
     });
 
     map.addMarker({
